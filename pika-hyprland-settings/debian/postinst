@@ -9,6 +9,6 @@ cp -f /etc/skel/.config/examples/.profile /etc/skel/
     do
         if ! test -f "${u}/.config/hypr/hypr.conf"
         then
-            cp -R /etc/skel/ "${u}/"
+            cp -a /etc/skel/. "${u}/"
         fi
     done
