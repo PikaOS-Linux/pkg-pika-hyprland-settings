@@ -4,3 +4,10 @@ set -e
 
 cp -f /etc/skel/.config/examples/metadata.desktop /usr/share/plasma/desktoptheme/Orchis-dark/
 cp -f /etc/skel/.config/examples/.profile /etc/skel/
+
+getent passwd |
+    while IFS=: read username x uid gid gecos home shell
+    do
+        [[ "$username" == root || ! -d "$home" ]] && continue
+        tar -cf - -C /etc/skel . | sudo -Hu "$username" tar --skip-old-files -xf -
+    done

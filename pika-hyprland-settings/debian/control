@@ -7,7 +7,6 @@ Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 
 Package: pika-hyprland-settings
-Source: meta-hyprland
 Architecture: amd64
 Depends: breeze, pika-theme
 Conflicts: pika-settings, pika-kde-settings
