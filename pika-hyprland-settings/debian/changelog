@@ -1,3 +1,9 @@
+pika-hyprland-settings (1.0.0-99pika13) lunar; urgency=medium
+
+  * Logout menu configs
+
+ -- ferrreo <harderthanfire@gmail.com>  Sat, 01 Oct 2022 14:50:00 +0300
+
 pika-hyprland-settings (1.0.0-99pika12) lunar; urgency=medium
 
   * Network manager applet

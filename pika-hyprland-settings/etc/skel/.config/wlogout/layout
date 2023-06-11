@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "/usr/share/pika/lock.sh",
     "text" : "Lock",
     "keybind" : "l"
 }
