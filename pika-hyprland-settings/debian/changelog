@@ -1,3 +1,9 @@
+pika-hyprland-settings (1.0.0-99pika9) lunar; urgency=medium
+
+  * Lightdm settings
+
+ -- ferrreo <harderthanfire@gmail.com>  Sat, 01 Oct 2022 14:50:00 +0300
+
 pika-hyprland-settings (1.0.0-99pika8) lunar; urgency=medium
 
   * Add missing env vars
