@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+cp -f /etc/skel/.config/examples/metadata.desktop /usr/share/plasma/desktoptheme/Orchis-dark/
+cp -f /etc/skel/.config/examples/.profile /etc/skel/

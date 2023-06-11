@@ -1,0 +1,72 @@
+{
+  "anchor_to_edges": true,
+  "position": "top",
+  "start": [
+    {
+      "all_monitors": false,
+      "name_map": {
+        "2": " ",
+        "3": " ",
+        "1": " ",
+        "4": " "
+      },
+      "type": "workspaces"
+    },
+    {
+      "format": [
+        " {cpu_percent}%",
+        "󰏈 {temp_c:k10temp-Tctl}°C",
+        " {memory_percent}%",
+        " {disk_percent:/}%",
+        "李 {net_down:enp16s0}",
+        " {uptime}"
+      ],
+      "interval": {
+        "cpu": 1,
+        "disks": 300,
+        "memory": 30,
+        "networks": 3,
+        "temps": 5
+      },
+      "type": "sys_info"
+    }
+  ],
+  "center": [
+    {
+      "type": "focused",
+      "show_icon": true,
+      "show_title": true,
+      "icon_size": 32,
+      "truncate": "end"
+    }
+  ],
+  "end": [
+    {
+      "player_type": "mpris",
+      "truncate": {
+        "max_length": 100,
+        "mode": "end"
+      },
+      "type": "music"
+    },
+    {
+      "type": "tray"
+    },
+    {
+      "type": "clock",
+      "format": "%H:%M"
+    },
+    {
+      "bar": [
+        {
+          "on_click": "!wlogout -p layer-shell",
+          "label": "  ",
+          "name": "power-btn",
+          "type": "button"
+        }
+      ],
+      "class": "power-menu",
+      "type": "custom"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Source: pika-hyprland-settings
+Section: metapackages
+Priority: optional
+Maintainer: ferrreo <harderthanfire@gmail.com>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: pika-hyprland-settings
+Source: meta-hyprland
+Architecture: amd64
+Depends: breeze, pika-theme
+Conflicts: pika-settings, pika-kde-settings
+Section: metapackages
+Priority: optional
+Description:  PikaOS Hyprland Default Config
