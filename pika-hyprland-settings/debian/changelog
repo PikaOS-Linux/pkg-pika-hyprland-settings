@@ -1,3 +1,15 @@
+pika-hyprland-settings (1.0.0-99pika21) lunar; urgency=medium
+
+  * Fix brightnessctl
+
+ -- ferrreo <harderthanfire@gmail.com>  Sat, 01 Oct 2022 14:50:00 +0300
+
+pika-hyprland-settings (1.0.0-99pika20) lunar; urgency=medium
+
+  * Make calamares float
+
+ -- ferrreo <harderthanfire@gmail.com>  Sat, 01 Oct 2022 14:50:00 +0300
+
 pika-hyprland-settings (1.0.0-99pika19) lunar; urgency=medium
 
   * Fix env vars 2
