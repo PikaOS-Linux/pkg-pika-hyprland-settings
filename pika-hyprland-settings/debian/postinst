@@ -17,4 +17,3 @@ mkdir -p /etc/greetd/
 cp -f /usr/share/pika/greetd/config.toml /etc/greetd/config.toml
 rm /etc/systemd/system/display-manager.service
 ln -s /lib/systemd/system/greetd.service /etc/systemd/system/display-manager.service
-/lib/systemd/system/greetd.service
