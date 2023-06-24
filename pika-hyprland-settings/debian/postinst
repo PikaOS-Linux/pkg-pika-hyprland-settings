@@ -12,3 +12,6 @@ cp -f /etc/skel/.config/examples/.profile /etc/skel/
             cp -a /etc/skel/. "${u}/"
         fi
     done
+
+mkdir -p /etc/greetd/
+cp -f /usr/share/pika/greetd/config.toml /etc/greetd/config.toml
