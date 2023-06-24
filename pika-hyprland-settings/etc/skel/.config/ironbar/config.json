@@ -4,12 +4,6 @@
   "start": [
     {
       "all_monitors": false,
-      "name_map": {
-        "2": " ",
-        "3": " ",
-        "1": " ",
-        "4": " "
-      },
       "type": "workspaces"
     },
     {
@@ -18,7 +12,6 @@
         "󰏈 {temp_c:k10temp-Tctl}°C",
         " {memory_percent}%",
         " {disk_percent:/}%",
-        "李 {net_down:enp16s0}",
         " {uptime}"
       ],
       "interval": {
