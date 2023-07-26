@@ -16,7 +16,7 @@
 .container,
 .container * {
     background-color: @color_bg;
-    color: @color_test;
+    color: @color_text;
     border-radius: 0;
     border: none;
     margin: 0;
@@ -256,4 +256,12 @@
 
 .popup-power-menu .power-btn:hover {
     background-color: @color_bg;
+}
+
+.upower .icon {
+    opacity: 0;
+}
+
+.upower {
+    color: @color_text;
 }
