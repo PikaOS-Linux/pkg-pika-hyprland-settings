@@ -1,5 +1,8 @@
 #! /usr/bin/make -f
 
+override_dh_dwz:
+	echo "Skipping dwz"
+	
 override_dh_install:
 	dh_install
 	mkdir -p debian/pika-hyprland-settings/usr/share/wallpapers/Pika/contents/images/
