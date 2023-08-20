@@ -1,3 +1,9 @@
+pika-hyprland-settings (1.1.0-99pika1) lunar; urgency=medium
+
+  * Add ags
+
+ -- ferrreo <harderthanfire@gmail.com>  Sat, 01 Oct 2022 14:50:00 +0300
+
 pika-hyprland-settings (1.0.9-99pika1) lunar; urgency=medium
 
   * Fix for hyprland update
