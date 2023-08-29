@@ -8,7 +8,7 @@ rsync -azP --exclude '*.deb' ferreo@direct.pika-os.com:/srv/www/pikappa/ ./outpu
 reprepro -V --basedir ./output/repo/ removefilter lunar 'Package (% pika-hyprland-settings*)'
 
 # Add the new package to the repo
-reprepro -V --basedir ./output/repo/ includedeb lunar ./output/pika-hyprland-settings*.deb
+reprepro -V -C main --basedir ./output/repo/ includedeb lunar ./output/pika-hyprland-settings*.deb
 
 # Push the updated ppa repo to the server
 rsync -azP ./output/repo/ ferreo@direct.pika-os.com:/srv/www/pikappa/
