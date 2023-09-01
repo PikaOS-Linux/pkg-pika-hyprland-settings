@@ -10,7 +10,7 @@ export const getTemp = (temp) => {
 export const getWeatherSymbol = (weatherCode) => {
     const dt = new Date();
     const hour = dt.getHours();
-    if (hour < 7 || hour > 21) {
+    if (hour <= 7 || hour >= 20) {
         return NIGHT_WEATHER_SYMBOL[WWO_CODE[weatherCode]];
     }
     return WEATHER_SYMBOL[WWO_CODE[weatherCode]];
