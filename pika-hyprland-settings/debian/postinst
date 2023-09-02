@@ -7,7 +7,7 @@ cp -f /etc/skel/.config/examples/.profile /etc/skel/
 
  for u in /home/*
     do
-        if ! test -f "${u}/.config/hypr/hypr.conf"
+        if ! test -f "${u}/.config/hypr/hyprland.conf"
         then
             cp -a /etc/skel/. "${u}/"
         fi
