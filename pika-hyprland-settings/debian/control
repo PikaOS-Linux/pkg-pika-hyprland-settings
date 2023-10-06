@@ -9,7 +9,8 @@ Rules-Requires-Root: no
 Package: pika-hyprland-settings
 Architecture: amd64
 Depends: breeze, pika-theme, greetd, ags
-Conflicts: pika-settings, pika-kde-settings, gdm3
+Conflicts: pika-gnome-settings, pika-kde-settings, gdm3
+Provides: pika-settings
 Section: metapackages
 Priority: optional
 Description:  PikaOS Hyprland Default Config
