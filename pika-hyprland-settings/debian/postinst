@@ -10,6 +10,7 @@ cp -f /etc/skel/.config/examples/.profile /etc/skel/
         if ! test -f "${u}/.config/hypr/hyprland.conf"
         then
             cp -a /etc/skel/. "${u}/"
+            chown -R "${u}:${u}" "${u}/" 
         fi
 
         if ! test -f "${u}/.config/ags/widgets/systray.js"
